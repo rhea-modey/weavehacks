@@ -2,7 +2,7 @@
 
 **A panel of AI agents interrogates any claim and catches deception the moment it leaks.** A *speaker* agent is privately assigned a secret and a mode (honest / lying / strategically-deceptive / hallucinating). A *panel* of detector agents — Cross-Examiner, Consistency Auditor, Behavioral Analyst, Evidence Checker — questions it in real time; their suspicion meters move live. An adjudicator fuses the signals into a **calibrated verdict** (*"DECEPTION — 87%"*), then the ground truth is revealed and scored.
 
-> WeaveHacks 4 (Multi-Agent Orchestration). The win rests on a genuinely load-bearing multi-agent panel, an objective ground-truth eval (accuracy / false-positive-rate / calibration in Weave), and a perceivable demo — the meter spike at the moment of the lie.
+> Built as a team project at WeaveHacks 4 (Multi-Agent Orchestration). The technical core is a genuinely load-bearing multi-agent panel, an objective ground-truth eval (accuracy / false-positive-rate / calibration in Weave), and a perceivable demo — the meter spike at the moment of the lie.
 
 The contribution: a **black-box, dialogical, multi-agent** interrogation targeting the *strategic-deception* blind spot that white-box truth-probes miss — with **calibrated** confidence. Full design in [`docs/SPEC.md`](docs/SPEC.md).
 
