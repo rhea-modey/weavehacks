@@ -4,7 +4,11 @@
 
 > Built as a team project at WeaveHacks 4 (Multi-Agent Orchestration). The technical core is a genuinely load-bearing multi-agent panel, an objective ground-truth eval (accuracy / false-positive-rate / calibration in Weave), and a perceivable demo — the meter spike at the moment of the lie.
 
-The contribution: a **black-box, dialogical, multi-agent** interrogation targeting the *strategic-deception* blind spot that white-box truth-probes miss — with **calibrated** confidence. Full design in [`docs/SPEC.md`](docs/SPEC.md).
+## My contributions
+
+I built core parts of the multi-agent evaluation system: the four-agent analysis workflow, asynchronous FastAPI orchestration with structured OpenAI outputs, evaluation of accuracy / false-positive rate / per-agent behavior with Weights & Biases Weave, and the Next.js/Redis streaming interface.
+
+The system's core idea is a **black-box, dialogical, multi-agent** interrogation targeting the *strategic-deception* blind spot that white-box truth-probes miss — with **calibrated** confidence. Full design in [`docs/SPEC.md`](docs/SPEC.md).
 
 ---
 
@@ -116,12 +120,3 @@ frontend/app/     courtroom UI (meters · transcript · progress · verdict) ove
 docs/             SPEC · IMPLEMENTATION_PLAN · TESTING · AUTOMATION · PR_STATUS
 .claude/skills/   weave · openai · redis · copilotkit-agui  (read before using a tech)
 ```
-
-## Submission checklist (SPEC §17)
-
-- [ ] Public repo with run instructions (this README)
-- [ ] **W&B Weave project link** included
-- [ ] Submitted on the Cerebral Valley platform (confirm DevPost) by **12:50 Sun**
-- [ ] **<2-min demo video** — open on the meter spike at the lie
-- [ ] Every sponsor tool + how (table above)
-- [ ] Team + socials
